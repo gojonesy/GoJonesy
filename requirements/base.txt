@@ -51,3 +51,5 @@ django-compressor==2.2
 
 
 # Your custom requirements go here
+# Django Rest Framework
+djangorestframework>=3.7.7
