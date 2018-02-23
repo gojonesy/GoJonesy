@@ -1,5 +1,9 @@
 from django.apps import AppConfig
 
 
-class DumbConfig(AppConfig):
+class BlogConfig(AppConfig):
     name = 'blog'
+    verbose_name = 'Blog'
+
+    def ready(self):
+        pass
