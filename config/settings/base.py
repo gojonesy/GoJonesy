@@ -58,6 +58,7 @@ LOCAL_APPS = [
     'gojonesy.users.apps.UsersConfig',
     # Your stuff: custom apps go here
     'gojonesy.blog.apps.BlogConfig',
+    'gojonesy.snippets.apps.SnippetsConfig',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
