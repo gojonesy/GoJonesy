@@ -5,7 +5,7 @@
 {% endblock %}
 {% block content %}
   <div class="row">
-    <div class="col-sm-6 col-sm-offset-3">
+    <div class="col-sm-6 col-sm-offset-3 content-markdown">
       {% if instance.image %}
         <img src="{{ instance.image.url }}" class="img-fluid">
       {% endif %}
@@ -14,7 +14,7 @@
       <p>Author: {{ instance.author.get_full_name }}</p>
       <small>{% if instance.draft %}<span style='color:red;'>Draft</span>{% endif %}
         {{ instance.publish }}</small>
-        {{ instance.content|linebreaks }}<br>
+        {{ instance.content }}<br>
 
     </div>
   </div>
